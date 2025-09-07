@@ -1,4 +1,10 @@
-function a() {
-    var x = 10;
+function greet(name, callback) {
+    console.log("hello" + name);
+    callback();
 }
-console.log(x)
+
+function cb() {
+    console.log("cb function hu");
+}
+
+greet("anshul", cb);

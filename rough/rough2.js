@@ -1,8 +1,5 @@
-{
-    var p = 1;
-    let q = 2;
-    const r = 3;
+function a() {
+    let x=10;
 }
-console.log(p); // ?
-// console.log(q); // ?
-console.log(r); // ?
+a();
+console.log(x);
