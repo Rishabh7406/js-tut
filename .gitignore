@@ -2,3 +2,5 @@
 .env.local
 settings.json
 .vscode
+node_modules
+tempCodeRunnerFile.*

@@ -1,5 +1,9 @@
 const myPromise = new Promise((resolve, reject) => {
-    // your code here
+    setTimeout(() => {
+        resolve("success")
+    }, 2000);
+
+ 
 });
 
 myPromise

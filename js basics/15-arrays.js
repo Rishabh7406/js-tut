@@ -48,7 +48,11 @@ let big = arr.filter(x => x > 10);
 console.log("filter(x>10):", big); // [20,30]
 
 // 12. reduce → combine elements to single value
-let sum = arr.reduce((acc, x) => acc + x, 0);
+function calc(acc, x){
+    return acc + x;
+
+}
+let sum = arr.reduce(calc, 0);
 console.log("reduce(sum):", sum); // 55
 
 // 13. find / findIndex → first matching element

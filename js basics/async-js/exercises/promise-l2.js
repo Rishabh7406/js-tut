@@ -1,11 +1,17 @@
-const posts = [
-  { id: 1, title: "Hello World" },
-  { id: 2, title: "JS is fun" },
-  { id: 3, title: "Learn Async" }
-];
+
 
 const fetchTitles = new Promise((resolve, reject) => {
+  const posts = [
+    { id: 1, title: "Hello World" },
+    { id: 2, title: "JS is fun" },
+    { id: 3, title: "Learn Async" }
+  ];
+  let ans = posts.map((ele) => ele.title);
+  setTimeout(() => {
+    resolve(ans);
+  }, 1000);
   // your code here
+
 });
 
 fetchTitles

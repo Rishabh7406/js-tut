@@ -1,18 +1,20 @@
 const users = [
-    { name: "Alice", age: 17 },
-    { name: "Bob", age: 20 },
-    { name: "Charlie", age: 16 },
-    { name: "David", age: 22 }
+  { name: "Alice", age: 17 },
+  { name: "Bob", age: 20 },
+  { name: "Charlie", age: 16 },
+  { name: "David", age: 22 }
 ];
 
 function getAdultUsers(data, callback) {
-    // your code here
+  // your code here
+  let ans = data.filter((ele) => ele.age > 18)
+  callback(ans);
 }
-
-getAdultUsers(users, result => {
-    console.log(result);
-    // expected: [{name: "Bob", age: 20}, {name: "David", age: 22}]
-});
+function handleCallback(result) {
+  console.log(result);
+  // expected: [{name: "Bob", age: 20}, {name: "David", age: 22}]
+}
+getAdultUsers(users, handleCallback);
 
 
 

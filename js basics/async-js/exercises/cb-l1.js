@@ -1,21 +1,10 @@
 function showMessage(callback) {
-    // your code here
+    setTimeout(() => {
+        callback();
+    }, 2000);
 }
 
-showMessage(() => {
-    console.log("Hello after 2 seconds!");
-});
-
-
-
-/*
-function showMessage(callback) {
-  setTimeout(callback, 2000); // wait 2 seconds then call callback
+function someFunc() {
+    console.log("callback function hu")
 }
-
-showMessage(() => {
-  console.log("Hello after 2 seconds!");
-});
-
-
-*/
+showMessage(someFunc)
