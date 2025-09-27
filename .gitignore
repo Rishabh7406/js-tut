@@ -1,6 +1,126 @@
+# Environment files
 .env
 .env.local
-settings.json
-.vscode
-node_modules
+.env.development
+.env.production
+.env.test
+.env.staging
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary files
 tempCodeRunnerFile.*
+tempCodeRunnerFile.js
+*.tmp
+*.temp
+
+# Personal/Private files
+syllabus.txt
+personal-notes.txt
+private-notes.txt
+*.private
+*.personal
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Test files that shouldn't be committed
+test-results/
+test-output/
+*.test.js.bak
+
+# Build outputs (uncomment if you don't want to track builds)
+# dist/
+# build/
+# out/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuration files with sensitive data
+config/local.js
+config/production.js
+config/development.js
