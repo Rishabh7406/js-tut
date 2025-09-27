@@ -124,3 +124,5 @@ test-output/
 config/local.js
 config/production.js
 config/development.js
+
+waste
