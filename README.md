@@ -32,6 +32,30 @@ batches/
 └── g4/rough/           # Batch G4 rough work & class notes
 ```
 
+### 📊 PowerPoint Presentations
+
+```
+ppts/
+├── 01-javascript-basics/          # Module 1 PPTs
+├── 02-nodejs-core/               # Module 2 PPTs
+├── 03-express-basics/            # Module 3 PPTs
+├── 04-express-middleware/        # Module 4 PPTs
+├── 05-databases-mongodb/         # Module 5 PPTs
+├── 06-mongodb-crud/             # Module 6 PPTs
+├── 07-authentication/           # Module 7 PPTs
+├── 08-react-revision/           # Module 8 PPTs
+├── 09-frontend-backend-integration/ # Module 9 PPTs
+├── 10-deployment/                # Module 10 PPTs
+├── 11-advanced-backend/          # Module 11 PPTs
+├── 12-real-world-project/       # Module 12 PPTs
+├── 13-capstone-project/          # Module 13 PPTs
+└── batches/                      # Batch-specific PPTs
+    ├── g1/                      # Batch G1 presentations
+    ├── g2/                      # Batch G2 presentations
+    ├── g3/                      # Batch G3 presentations
+    └── g4/                      # Batch G4 presentations
+```
+
 ## 🚀 Getting Started
 
 ### For Students
